@@ -1,0 +1,21 @@
+import React, { Component } from 'react';
+import {Alert, TextInput, Platform, StyleSheet, Text, AppRegistry, View, Image, ImageBackground, Dimensions, Button, TouchableOpacity} from 'react-native';
+
+export default class App extends Component
+	{
+    	constructor(props) {
+        super(props);
+        }
+    }
+
+	render()
+	{
+		return{
+		<view>
+			<button
+				onPress={this.handlePressButton}
+				title = "press me now"
+				/>
+		</view>
+		}
+	}
